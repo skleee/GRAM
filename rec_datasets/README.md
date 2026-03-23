@@ -77,7 +77,10 @@ Each dataset folder contains the following 4 files:
 ## ⚠️ Notes
 
 - All datasets are preprocessed and ready for training
-- Preprocessing scripts for hierarchical semantics indexing and collaborative semantics verbalization will be released soon.
+- Preprocessing notebooks are available in [`preprocessing/`](../preprocessing/):
+  - `0_nvembed_extraction.ipynb`: Extract item embeddings using NV-Embed-v2
+  - `1_hierarchical_semantics_indexing.ipynb`: Hierarchical k-means + TF-IDF → hierarchical lexical IDs
+  - `2_collaborative_semantics_verbalization.ipynb`: SASRec-based top-k similar item extraction
 - Different datasets may have varying cluster and hierarchy parameters based on dataset characteristics
 
 For more details about the GRAM model and training process, please refer to the [main README](../README.md).
