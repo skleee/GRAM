@@ -12,7 +12,7 @@ This is the official implementation for the **ACL 2025** paper: "*GRAM: Generati
 **GRAM** (Generative Recommender via semantic-Aware Multi-granular late fusion) is a novel generative recommendation system that effectively translates item relationships into LLM's vocabulary space and efficiently processes rich metadata through multi-granular late fusion.
 
 <div align="center">
-  <img src="assets/model.png" alt="Overview of GRAM" width="80%">
+  <img src="assets/model.png" alt="Overview of GRAM">
 </div>
 
 
